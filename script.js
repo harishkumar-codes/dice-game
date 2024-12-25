@@ -108,7 +108,7 @@ btnHold.addEventListener("click",function(){
    
 
 
-if(scores[activePlayer]>=10){
+if(scores[activePlayer]>=100){
    playing=false
    dice.classList.add("hidden")
    document.querySelector(`.player--${activePlayer}`).classList
